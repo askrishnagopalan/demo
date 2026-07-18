@@ -13,7 +13,7 @@ public static void main(String[] args) {
 	sc.nextLine();
 	List<String> CSK= new ArrayList<>(a);
 	List<String> RCB= new ArrayList<>(a);
-	System.out.println("Enter the Players name:");
+	System.out.println("Enter the CSK Players name:");
 	for(int i=0;i<a;i++) {
 		System.out.println(i+":");
 		CSK.add(sc.nextLine());
@@ -23,7 +23,7 @@ public static void main(String[] args) {
 	while(ite1.hasNext()) {
 		System.out.println(ite1.next());
 	}
-	System.out.println("Enter the Players name:");
+	System.out.println("Enter the RCB Players name:");
 	for(int i=0;i<a;i++) {
 		System.out.println(i+":");
 		RCB.add(sc.nextLine());
@@ -45,5 +45,6 @@ public static void main(String[] args) {
 	else {
 		System.out.println("nama Bangalure");
 	}
+	sc.close();
 }
 }
